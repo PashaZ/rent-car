@@ -110,7 +110,7 @@ img {
 
 .search__filter::after {
   content: "";
-  background-image: url(../../images/filter.svg);
+  background-image: url("../images/filter.svg");
   width: 24px;
   height: 24px;
 }
@@ -341,7 +341,7 @@ aside {
 .aside-list__checkbox:checked + .aside-list__check-icon {
   border-color: #90A3BF;
   background-color: #3563E9;
-  background-image: url("../../images/icon-check.svg");
+  background-image: url("../images/icon-check.svg");
   background-size: contain;
   background-origin: border-box;
 }
@@ -459,7 +459,7 @@ input[type=range]::-ms-track {
 .hero-cover {
   width: 492px;
   height: 360px;
-  background-image: url("../../images/main-view.jpg");
+  background-image: url("../images/main-view.jpg");
   border-radius: 10px;
   margin-top: 32px;
 }

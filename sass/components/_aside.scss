@@ -92,7 +92,7 @@ color: v.$secondary-text-color;
 .aside-list__checkbox:checked + .aside-list__check-icon {
   border-color: v.$info-text-color;
   background-color: v.$button-color;
-  background-image: url('../../images/icon-check.svg'); 
+  background-image: url('../images/icon-check.svg'); 
   background-size: contain;
   background-origin: border-box;
 }
