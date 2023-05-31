@@ -50,7 +50,7 @@
 .search__input{
 width: 492px;
 height: 44px;
-background: #FFFFFF;
+background: v.$primary-bg-color;
 border: 1px solid #C3D4E9;
 border-radius: 70px; 
 padding-left: 60px;
@@ -60,7 +60,7 @@ padding-left: 60px;
  font-style: normal;
 font-weight: 500;
 font-size: 14px;
-color: #3D5278 ;
+color: v.$secondary-text-color ;
 }
 
 .search__icon{
