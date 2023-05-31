@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<link rel="stylesheet" href="./mincss/main.min.css" />
+
+    <title>Rent cars</title>
+</head>
+<body>
+    <header>
+        <div class="main-menu cont">
+            <nav class="nav">
+                <div class="nav__logo-search">
+                    <a href="./index.html" class="logo">
+                        <img class="logo__img" src="./images/logo.png" alt="logo">
+                    </a>
+                    
+                    <div class="search">
+                        <input class="search__input" type="text" name="search" id="search" placeholder="Search something here" >
+                    
+                        <svg class="search__icon">
+                            <use href="./images/svg-sprite/symbol-defs.svg#search-normal"></use>
+                        </svg>
+                    
+                        <button type="button" class="search__filter">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="nav__icons">
+                                <button type="button" class="burger"></button>
+
+                        <ul class="navlist">
+                            <li class="navlist__element">
+                                <a href="#">
+                                    <svg class="navlist__icon">
+                                        <use href="./images/svg-sprite/symbol-defs.svg#heart"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="navlist__element">
+                                <a href="#">
+                                    <svg class="navlist__icon">
+                                        <use href="./images/svg-sprite/symbol-defs.svg#notification"></use>
+                                    </svg>
+                                    <span class="navlist__notification"></span>
+                                </a>
+                            </li>
+                            <li class="navlist__element">
+                                <a href="#">
+                                    <svg class="navlist__icon">
+                                        <use href="./images/svg-sprite/symbol-defs.svg#setting-2"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        
+                        </ul>
+                            
+                        <a href="#" class="nav__profile">
+                            <img src="./images/profile-foto.png" alt="">
+                        </a>
+                </div>
+                    </nav>
+        </div>
+    </header>
+
+<main class="main">
+
+<!-- aside  -->
+    <aside>
+        <!-- type  -->
+        <div class="aside-block-type">
+            <h3 class="aside-block__title">Type</h3>
+    
+            <ul class="row aside-list">
+    
+                <li class="aside-list__element col-12">
+                    <label class="aside-list__label" data-id="sport">
+                        <input class="aside-list__checkbox" type="checkbox" name="sport" value="sport">
+                        <span class="aside-list__check-icon"></span>
+                        Sport
+                        <span class="aside-list__number">(10)</span>
+                    </label>
+                </li>
+                <li class="aside-list__element col-12">
+                    <label class="aside-list__label" data-id="suv">
+                        <input class="aside-list__checkbox" type="checkbox" name="suv" value="suv">
+                        <span class="aside-list__check-icon"></span>
+                        SUV
+                        <span class="aside-list__number">(12)</span>
+                    </label>
+                </li>
+                <li class="aside-list__element col-12">
+                    <label class="aside-list__label" data-id="mpv">
+                        <input class="aside-list__checkbox" type="checkbox" name="mpv" value="mpv">
+                        <span class="aside-list__check-icon"></span>
+                        MPV
+                        <span class="aside-list__number">(16)</span>
+                    </label>
+                </li>
+                <li class="aside-list__element col-12">
+                    <label class="aside-list__label" data-id="sedan">
+                        <input class="aside-list__checkbox" type="checkbox" name="sedan" value="sedan">
+                        <span class="aside-list__check-icon"></span>
+                        Sedan
+                        <span class="aside-list__number">(20)</span>
+                    </label>
+                </li>
+                <li class="aside-list__element col-12">
+                    <label class="aside-list__label" data-id="coupe">
+                        <input class="aside-list__checkbox" type="checkbox" name="coupe" value="coupe">
+                        <span class="aside-list__check-icon"></span>
+                        Coupe
+                        <span class="aside-list__number">(14)</span>
+                    </label>
+                </li>
+                <li class="aside-list__element col-12">
+                    <label class="aside-list__label" data-id="hatchback">
+                        <input class="aside-list__checkbox" type="checkbox" name="hatchback" value="hatchback">
+                        <span class="aside-list__check-icon"></span>
+                        Hatchback
+                        <span class="aside-list__number">(14)</span>
+                    </label>
+                </li>
+    
+            </ul>
+        </div>
+    
+        <!-- capacity -->
+        <div class="aside-block-capacity">
+            <h3 class="aside-block__title">Type</h3>
+    
+            <ul class="row aside-list">
+    
+                <li class="aside-list__element col-12">
+                    <label class="aside-list__label" data-id="sport">
+                        <input class="aside-list__checkbox" type="checkbox" name="sport" value="sport">
+                        <span class="aside-list__check-icon"></span>
+                        Sport
+                        <span class="aside-list__number">(10)</span>
+                    </label>
+                </li>
+                <li class="aside-list__element col-12">
+                    <label class="aside-list__label" data-id="suv">
+                        <input class="aside-list__checkbox" type="checkbox" name="suv" value="suv">
+                        <span class="aside-list__check-icon"></span>
+                        SUV
+                        <span class="aside-list__number">(12)</span>
+                    </label>
+                </li>
+                <li class="aside-list__element col-12">
+                    <label class="aside-list__label" data-id="mpv">
+                        <input class="aside-list__checkbox" type="checkbox" name="mpv" value="mpv">
+                        <span class="aside-list__check-icon"></span>
+                        MPV
+                        <span class="aside-list__number">(16)</span>
+                    </label>
+                </li>
+                <li class="aside-list__element col-12">
+                    <label class="aside-list__label" data-id="sedan">
+                        <input class="aside-list__checkbox" type="checkbox" name="sedan" value="sedan">
+                        <span class="aside-list__check-icon"></span>
+                        Sedan
+                        <span class="aside-list__number">(20)</span>
+                    </label>
+                </li>
+            </ul>
+        </div>
+    
+        <!-- price -->
+        <div class="aside-block-price">
+            <h3 class="aside-block__title">Price</h3>
+    
+            <div>
+                <input type="range" value="70" min="0.00" max="100.00" oninput="rangevalue.value=value" />
+                <br>
+                <div>
+                    <span class="price-span">Max.$</span>
+                    <output id="rangevalue">70</output>
+                </div>
+    
+            </div>
+        </div>
+    </aside>
+
+   <!-- right block           -->
+    <div class="right-block">
+
+        <!-- section hero  -->
+        <section class="hero">
+            <div class="hero-gellery">
+                <div class="hero-cover">
+                    <h1>Sports car with the best design and acceleration</h1>
+                    <p>Safety and comfort while driving a
+                        futuristic and elegant sports car
+                    </p>
+                    <img class="hero-img" src="./images/main-car.png" alt="car-nissan-gt-r">
+                </div>
+                <div class="hero-images">
+                    <img src="./images/view-1.png" alt="car-nissan-gt-r">
+                    <img src="./images/view-2.png" alt="panel-car-nissan-gt-r">
+                    <img src="./images/view-3.png" alt="seating-places-car-nissan-gt-r">
+                </div>
+            </div>
+    
+            <div class="hero-description">
+    
+                <div class="hero-description__first-section">
+                    <div class="hero-description__car-name">
+                        <h2>Nissan GT - R</h2>
+    
+                        <ul class="hero-description__star-block">
+                            <li><svg>
+                                    <use href="./images/svg-sprite-star-heart/symbol-defs.svg#star"></use>
+                                </svg></li>
+                            <li><svg>
+                                    <use href="./images/svg-sprite-star-heart/symbol-defs.svg#star"></use>
+                                </svg></li>
+                            <li><svg>
+                                    <use href="./images/svg-sprite-star-heart/symbol-defs.svg#star"></use>
+                                </svg></li>
+                            <li><svg>
+                                    <use href="./images/svg-sprite-star-heart/symbol-defs.svg#star"></use>
+                                </svg></li>
+                            <li><svg>
+                                    <use href="./images/svg-sprite-star-heart/symbol-defs.svg#star-empty"></use>
+                                </svg></li>
+                            <li><span>440+Revier</span></li>
+                        </ul>
+                    </div>
+                    <div class="hero-description__heart">
+                        <svg>
+                            <use href="./images/svg-sprite-star-heart/symbol-defs.svg#heart-red"></use>
+                        </svg>
+                    </div>
+    
+                </div>
+                <p>
+                    NISMO has become the embodiment of Nissan's outstanding performance, inspired by the most unforgiving
+                    proving
+                    ground,
+                    the "race track".
+                </p>
+                <div class="hero-description__second-section">
+                    <ul class="hero-description__second-section-list">
+                        <li class="second-list__odd">
+                            <p>Type Car</p>
+                            <span>Sport</span>
+                        </li>
+                        <li class="second-list__even">
+                            <p>Capacity</p>
+                            <span>2 Person</span>
+                        </li>
+                        <li class="second-list__odd">
+                            <p>Steering</p>
+                            <span>Manual</span>
+                        </li>
+                        <li class="second-list__even">
+                            <p>Gasoline</p>
+                            <span>70L</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hero-description__third-section">
+                    <div class="hero-description__price">
+                        <b>$80.00/</b>
+                        <span>days</span>
+                        <p>$100.00</p>
+                    </div>
+                    <button type="submit">Rent Now</button>
+                </div>
+            </div>
+        </section>
+
+<!-- section reviews  -->
+        <section class="reviews">
+            <div class="reviews-title">
+                <p>Reviews</p>
+                <span>13</span>
+            </div>
+
+             <div class="reviews-client">
+                <div class="client">
+
+                    <img src="./images/profile-foto.png" alt="man-width-black-hair">
+                    <div class="client-description">
+
+                        <div class="client-title">
+                            <div class="client-name">
+                                <h3>Alex Stanton</h3>
+                                <h4>CEO at Bukalapak</h4>
+                            </div>
+                            <div class="client-stars">
+                                <p>21 July 2022</p>
+                                <ul class="client-description__star-block">
+                                    <li><svg>
+                                            <use href="./images/svg-sprite-star-heart/symbol-defs.svg#star"></use>
+                                        </svg></li>
+                                    <li><svg>
+                                            <use href="./images/svg-sprite-star-heart/symbol-defs.svg#star"></use>
+                                        </svg></li>
+                                    <li><svg>
+                                            <use href="./images/svg-sprite-star-heart/symbol-defs.svg#star"></use>
+                                        </svg></li>
+                                    <li><svg>
+                                            <use href="./images/svg-sprite-star-heart/symbol-defs.svg#star"></use>
+                                        </svg></li>
+                                    <li><svg>
+                                            <use href="./images/svg-sprite-star-heart/symbol-defs.svg#star-empty"></use>
+                                        </svg></li>
+                                </ul>
+                    
+                            </div>
+                        </div>
+                            <p class="client-text">
+                                We are very happy with the service from the MORENT App. Morent has a low price and also a large variety of
+                                cars with
+                                good and comfortable facilities. In addition, the service provided by the officers is also very friendly and
+                                very
+                                polite.
+                            </p>
+                    </div>
+                </div>
+            </div>   
+            <div class="reviews-client">
+                <div class="client">
+            
+                    <img src="./images/profill-foto-girl.png" alt="man-width-black-hair">
+                    <div class="client-description">
+            
+                        <div class="client-title">
+                            <div class="client-name">
+                                <h3>Skylar Dias</h3>
+                                <h4>CEO at Amazon</h4>
+                            </div>
+                            <div class="client-stars">
+                                <p>20 July 2022</p>
+                                <ul class="client-description__star-block">
+                                    <li><svg>
+                                            <use href="./images/svg-sprite-star-heart/symbol-defs.svg#star"></use>
+                                        </svg></li>
+                                    <li><svg>
+                                            <use href="./images/svg-sprite-star-heart/symbol-defs.svg#star"></use>
+                                        </svg></li>
+                                    <li><svg>
+                                            <use href="./images/svg-sprite-star-heart/symbol-defs.svg#star"></use>
+                                        </svg></li>
+                                    <li><svg>
+                                            <use href="./images/svg-sprite-star-heart/symbol-defs.svg#star"></use>
+                                        </svg></li>
+                                    <li><svg>
+                                            <use href="./images/svg-sprite-star-heart/symbol-defs.svg#star-empty"></use>
+                                        </svg></li>
+                                </ul>
+            
+                            </div>
+                        </div>
+                        <p class="client-text">
+                            We are greatly helped by the services of the MORENT Application. Morent has low prices and also a wide variety of cars
+                            with good and comfortable facilities. In addition, the service provided by the officers is also very friendly and very
+                            polite.                       
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+    <div class="show-reviews">
+    <button class="show-reviews__all" type="button">
+        Show All
+    </button>
+    </div>
+
+    </section>
+ </div>
+
+</main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+            integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+<script src="./script/script.js"></script>
+</body>
+
+</html>
