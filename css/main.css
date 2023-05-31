@@ -39,7 +39,7 @@ img {
 
 .burger::before {
   content: "";
-  background-image: url(../../images/menu.svg);
+  background-image: url("../images/menu.svg");
   width: 24px;
   height: 24px;
 }
@@ -250,7 +250,7 @@ img {
   }
   .search__filter::after {
     content: "";
-    background-image: url(../../images/filter.svg);
+    background-image: url("../images/filter.svg");
     width: 24px;
     height: 24px;
     margin: 0 auto;
